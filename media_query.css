@@ -39,15 +39,15 @@
     }
     .works-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 15px;
         padding: 0 70px;
         justify-items: center;
     }
     .work_text {
-        grid-column: span 3;
+        grid-column: span 4;
         padding-left: 0;
-        margin: 20px 0 0 50px;
+        margin: 40px 0 0 50px;
     }
 }
 
