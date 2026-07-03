@@ -1,6 +1,6 @@
 /* ===== 1. Tablet (1100px 이하) ===== */
 @media screen and (max-width: 1100px) {
-    .about-container {
+.about-container {
         flex-direction: column;
         align-items: center;
         margin: 50px auto;
@@ -28,7 +28,8 @@
     .info-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: fit-content;
+        width: 100%;
+        max-width: 900px;
         gap: 40px;
         text-align: left;
     }
@@ -48,16 +49,21 @@
         grid-column: span 4;
         padding-left: 0;
         margin: 20px 0 0 50px;
+        width: 100%;
     }
     .icons {
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
         width: 100%;
-        max-width: 320px;
+        max-width: none;
     }
     .thing_icon {
         width: calc((100% - 30px) / 3);
+        margin: 10px 0;
+    }
+    .favorite_thing {
+        grid-column: span 2; 
     }
 }
 
