@@ -209,7 +209,7 @@ p {
 }
 .work_text{
     font-weight: 300;
-    grid-column: span 2;
+    grid-column: span 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,7 +218,7 @@ p {
     padding-left: 40px;
 }
 .work_text p{
-    margin: 0 0 3px 0;
+    margin: 0 0 8px 0;
 }
 .work-container {
     display: flex;

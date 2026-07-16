@@ -52,7 +52,7 @@
         justify-items: center;
     }
     .work_text {
-        grid-column: span 2;
+        grid-column: span 3;
         padding-left: 20;
         margin: -10px 0 0 50px;
         width: 100%;
