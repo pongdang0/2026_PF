@@ -30,7 +30,7 @@ body {
 
 @font-face { 
     font-family: 'pretendard_light';
-    src: url('./font/Pretendard/Pretendard_light.otf') format('opentype');
+    src: url('./font/Pretendard/Pretendard-Light.otf') format('opentype');
 }
 img {
     max-width: 100%;
